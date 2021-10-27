@@ -1,0 +1,58 @@
+
+      *{            
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica,serif;
+    
+}
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: grey;
+    font-family: 'Paytone One', sans-serif !important;
+}
+a{
+    color: grey;
+}
+
+.menu ul li:hover,
+.menu ul li:hover a
+ {
+    color: #2c5817;
+}
+
+.active{
+    color: #2c5817;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h1,h2{
+    font-family: 'Lobster', cursive;
+}
+img{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width:100%;
+        width: 100%;
+         height: auto;
+}
+/*about*/
+.row::after{
+  
+    clear: both;
+    content: ".";
+    display: block;
+
+}
+/*about*/
