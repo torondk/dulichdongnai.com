@@ -29,7 +29,7 @@ a{
 }
 
 .active{
-    color: #2c5817;
+    color: #2c5817 !important;
 }
 
 h3 {
