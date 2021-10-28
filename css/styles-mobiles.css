@@ -63,8 +63,9 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
     text-transform: uppercase;
     color:honeydew;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: bold;
+    font-size: 0.6em;
 }
 
 .menu-main-left .menu-left{
