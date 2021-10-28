@@ -13,10 +13,20 @@
     <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 992px)" href="css/styles-tablets.css" />
 
     <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/styles-laptops.css" />
-
+ <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
     <title>Project 4 - Xây dựng Website hoàn chỉnh </title>
     <meta charset="utf-8">
-   
+   <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            animation: "fade",
+            slideshow: true,
+            slideshowSpeed: 4000,    
+           } );
+        });
+      </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ061GPV2B"></script>
 <script>
@@ -55,12 +65,25 @@
 
 
 <div class="banner col-12 col-sm-12 col-md-12">
-    <div class="banner-text">
-        <h1>Rừng Nam Cát Tiên</h1>
-        <p>Có Những Gì?</p>   
-    </div>
     
-</div>  
+        <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="image/banner.jpg" />
+              </li>
+              <li>
+                <img src="image/banner2.jpg" />
+              </li>
+              <li>
+                <img src="image/banner3.jpg" />
+              </li>
+            </ul>
+          </div>
+        <!-- <h1>Rừng Nam Cát Tiên</h1>
+        <p>Có Những Gì?</p>    -->
+    
+    
+</div>   
 </header>
 
 <main>
