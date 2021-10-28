@@ -56,7 +56,6 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
   }
   .menu-main-left li a {
     text-transform: uppercase;
-    
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
@@ -85,11 +84,11 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
   /* banner*/
 .banner{ 
     margin-top: 10px;
-    background-image: url("../image/banner.jpg") ;
-    background-repeat: no-repeat;
+    /* background-image: url("../image/banner.jpg") ; */
+    /* background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-     position: relative;
+    /* height: 700px; 
+     position: relative; */
 }
 .banner-about{
   margin-top: 10px;
@@ -116,7 +115,12 @@ lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
     position: absolute;
 }
 .banner{
-  padding: 15px;
+  /* padding: 15px; */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+    background-size: cover; 
+     position: relative;
 }
 .banner-text p {   
     margin-top: 0px;
